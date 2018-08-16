@@ -60,4 +60,4 @@ def main(NumOfRun):
         avgER+=checkER(testData, tmpw)
     return avgER/NumOfRun
 
-print(main(200))
+print(main(2000))
