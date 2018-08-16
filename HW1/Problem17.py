@@ -30,7 +30,7 @@ def PLA(data):
                 count+=1
                 allcorrect=False
                 for i in range(5):
-                    w[i]+=0.5*d[5]*d[i]
+                    w[i]+=0.5*d[5]*d[i] #change 
     return count
 
 #random ordered PLA 2000 times
